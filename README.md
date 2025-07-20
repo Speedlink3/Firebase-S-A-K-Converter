@@ -1,9 +1,9 @@
 # Firebase-S-A-K-Converter
-🔑 Universal Google Firebase Service Account Key Converter
-A simple Python tool to convert your Google Firebase Service Account Key between the standard .json format and a safe .env.local format (for use with Next.js, Vercel, and cloud deployment).
-Supports both JSON → .env.local and .env.local → JSON directions!
+<h1>🔑 Universal Google Firebase Service Account Key Converter</h1>
+<h3>A simple Python tool to convert your Google Firebase Service Account Key between the standard .json format and a safe .env.local format (for use with Next.js, Vercel, and cloud deployment).
+Supports both JSON → .env.local and .env.local → JSON directions!</h3>
 
-✨ Features
+<h2>✨ Features</h2>
 Convert Firebase JSON key to .env string for secure local development or serverless deployment.
 
 Restore from .env line to JSON for Firebase Admin SDK, Google Cloud, or easy migration.
@@ -12,8 +12,9 @@ Interactive CLI: No parameters needed; just follow the prompt.
 
 Compatible with Google Firebase Admin SDK, Next.js, Vercel, and any project needing secret management.
 
-📦 Script
-<b><details> <summary><b>Show Python Script</b></summary>
+<h2>📦 Script</h2>
+
+<details> <summary><b>Show Python Script</b></summary>
 import json
 import re
 import os
@@ -53,9 +54,10 @@ elif choice == "2":
     print(f"\nExported to {out_file}\nDone!")
 else:
     print("Invalid selection. Run again and choose 1 or 2.")
-</details><b>
+</details>
 
-🚀 How to Use
+
+<h2>🚀 How to Use</h2>
 1. Save the Script
 Save the above code as firebase_key_converter.py in your project folder.
 
@@ -68,21 +70,21 @@ python firebase_key_converter.py
 
 Just follow the on-screen prompts for filenames and output location.
 
-📚 References
+<h2>📚 References</h2>
 Firebase Admin SDK: Add credentials
 Firebase Service Account Keys
 How to store secrets with .env files
 Next.js Environment Variables
 Official Python Documentation
 
-⚠️ Security Reminder
+<h2>⚠️ Security Reminder</h2>
 Never commit your actual serviceAccountKey.json or secret .env.local to public repositories!
 Always use .gitignore to protect your secrets.
 
-❤️ Contributing
+<h2>❤️ Contributing</h2>
 Feel free to fork and improve this tool!
 Open an issue or PR if you want new features or a web-based version.
 
-🛡️ License
+<h2>🛡️ License</h2>
 MIT License.
 Free to use and share with attribution!
