@@ -1,4 +1,4 @@
-# Firebase-S-A-K-Converter
+# Firebase-S-A-K-Converter – ChatGPT গুরু, Speedlink3 AI #
 <h1>🔑 Universal Google Firebase Service Account Key Converter</h1>
 <h3>A simple Python tool to convert your Google Firebase Service Account Key between the standard .json format and a safe .env.local format (for use with Next.js, Vercel, and cloud deployment).
 Supports both JSON → .env.local and .env.local → JSON directions!</h3>
